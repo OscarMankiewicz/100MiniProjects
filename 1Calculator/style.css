@@ -1,0 +1,68 @@
+html {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  background-color: bisque;
+}
+
+.wrapper {
+  background: rgba(255, 255, 255, 0.01);
+  border: 1px solid black;
+  border-radius: 16px;
+  flex-basis: 400px;
+  height: 540px;
+  padding: 20px 35px;
+}
+
+.display {
+background: rgba(255, 255, 255, 0.75);
+border: 1px solid rgba(255, 255, 255, 0.125);
+border-radius: 16px;
+font-size: 35px;
+overflow: auto;
+padding: 20px;
+text-align: right;
+width: 360px;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 0;
+}
+
+.button {
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  border-radius: 16px;
+  cursor: pointer;
+  flex-basis: 20%;
+  font-size: 24px;
+  height: 65px;
+}
+
+.button:last-child {
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  border-radius: 16px;
+  cursor: pointer;
+  flex-basis: 20%;
+  font-size: 24px;
+  height: 65px;
+  color: #FFFFFF;
+  background: skyblue;
+}
+
+.two {
+  flex-basis: 47%;
+}
+
+.three {
+  flex-basis: 73%;
+}
