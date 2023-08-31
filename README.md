@@ -5,3 +5,4 @@ Each project will get more complex as the days go by.
 ## List of projects
 - Day 1: Calculator
 - Day 2: ToDo List
+- Day 3: Pomodoro
