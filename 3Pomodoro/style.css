@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+body.workMode {
+  background-color: #BA4949;
+}
+
+body.breakMode {
+  background-color: #518A58;
+}
+
+body.workMode button {
+  background-color: #fff;
+  color: #BA4949;
+}
+
+body.workMode button:hover {
+  background-color: #BA4949;
+  color: #fff;
+}
+
+body.breakMode button {
+  background-color: #fff;
+  color: #518A58;
+}
+
+body.breakMode button:hover {
+  background-color: #518A58;
+  color: #fff;
+}
+
+section {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  width: 400px;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+#timeDisplay {
+  font-size: 3em;
+  text-align: center;
+  color: #fff;
+}
+#progressBarContainer {
+  width: 100%;
+  height: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+#progressBarWrapper {
+  flex: 0 0 var(--progress-width, 100%);
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#progressBar {
+  height: 100%;
+  width: 100%;
+  background-color: #eee;
+  border-radius: 10px;
+  transition: width 0.1s ease;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5em;
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+}
